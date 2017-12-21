@@ -29,6 +29,7 @@ section {
 #home {
   height: 100vh;
   width: 100vw;
+  min-height: 400px;
   /* The only rule that matters */
   #video-background {
   /*  making the video fullscreen  */
@@ -84,6 +85,7 @@ section {
 }
 
 #us {
+  min-height: 400px;
   background: $UsBg;
   position: relative;
   display: flex;
@@ -100,7 +102,7 @@ section {
     bottom: 0;
     
     h1 {
-      font-size: calc(1.5em + 1.5vw);
+      font-size: calc(1.0em + 2.0vw);
       padding: 2vw;
       font-style: italic;
       font-weight: bolder;
@@ -113,6 +115,7 @@ section {
 }
 
 #services {
+  min-height: 400px;
   background: $ServicesBg;
   position: relative;
   display: flex;
@@ -132,21 +135,24 @@ section {
       font-weight: bolder;
     }
 
+
     .carousel {
-      i.tiny {
-        font-size: calc(.7em + .5vw);
-      }
-      font-size: 2em;
-      font-size: calc(.7em + .7vw);
+      font-size: calc(1.2em + .3vw);
       font-weight: bolder;
       color: #fff;
       margin: auto;
       text-align: center;
+      
+      h1 {
+        font-size: calc(2.0em + .3vw);
+      }
+
     }
   }
 }
 
 #clients {
+  min-height: 400px;
   background: $darkGray;
   position: relative;
   display: flex;

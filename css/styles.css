@@ -25,6 +25,7 @@ section {
 #home {
   height: 100vh;
   width: 100vw;
+  min-height: 400px;
   /* The only rule that matters */
   /* These just style the content */ }
   #home #video-background {
@@ -68,6 +69,7 @@ section {
     color: #fff; }
 
 #us {
+  min-height: 400px;
   background: rgba(20, 20, 20, 0.9);
   position: relative;
   display: -webkit-box;
@@ -88,7 +90,7 @@ section {
     right: 0;
     bottom: 0; }
     #us div h1 {
-      font-size: calc(1.5em + 1.5vw);
+      font-size: calc(1.0em + 2.0vw);
       padding: 2vw;
       font-style: italic;
       font-weight: bolder;
@@ -98,6 +100,7 @@ section {
       letter-spacing: 3px; }
 
 #services {
+  min-height: 400px;
   background: rgba(0, 0, 0, 0.95);
   position: relative;
   display: -webkit-box;
@@ -115,16 +118,16 @@ section {
       color: white;
       font-weight: bolder; }
     #services .row .carousel {
-      font-size: 2em;
-      font-size: calc(.7em + .7vw);
+      font-size: calc(1.2em + .3vw);
       font-weight: bolder;
       color: #fff;
       margin: auto;
       text-align: center; }
-      #services .row .carousel i.tiny {
-        font-size: calc(.7em + .5vw); }
+      #services .row .carousel h1 {
+        font-size: calc(2.0em + .3vw); }
 
 #clients {
+  min-height: 400px;
   background: rgba(12, 12, 12, 0.9);
   position: relative;
   display: -webkit-box;
